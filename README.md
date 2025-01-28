@@ -1,5 +1,7 @@
 # Ecommerce Data Analysis
 
+![image alt](https://github.com/nilwagh8800/Ecommerce-Data-Analysis-/blob/36d59a1257156cba3324147beafdbc515276494e/Screenshot%202025-01-28%20180309.png)
+
 # About Dataset
 Target is a globally recognized brand and a leading retailer in the United States, known for offering exceptional value, inspiration, innovation, and a unique shopping experience.
 
