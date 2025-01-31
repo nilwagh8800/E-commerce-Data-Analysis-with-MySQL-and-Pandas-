@@ -19,6 +19,40 @@ products.csv
 Potential Use Cases
 Analyzing this dataset offers valuable insights into Target's Brazilian operations, revealing details about order processing, pricing strategies, payment and shipping efficiency, customer demographics, product characteristics, and customer satisfaction. This comprehensive dataset is a valuable resource for understanding various business aspects and enhancing strategic decision-making.
 
+Project Breakdown
+Installation of Required Libraries
+
+pandas, mysql-connector-python, matplotlib, seaborn
+Ensures data processing, visualization, and MySQL connectivity.
+Loading Data into MySQL
+
+CSV files: customers.csv, orders.csv, sellers.csv, products.csv, order_items.csv, payments.csv, geolocation.csv.
+Uses pandas to read the CSV files.
+Dynamic Table Creation: Converts Pandas data types to MySQL data types.
+NaN Handling: Replaces NaN values with None to prevent SQL errors.
+Data Insertion: Inserts each row into the MySQL database.
+Exploratory Data Analysis (EDA) using SQL Queries
+
+Unique Customer Cities: Identifies all unique cities where customers are located.
+Total Orders in 2017: Counts the number of orders placed in 2017.
+Total Sales per Category: Summarizes sales by product category.
+Next Steps
+More SQL Queries for Analysis
+
+Top-selling products.
+Customer retention rate.
+Revenue trends over time.
+Data Visualization
+
+Bar charts for sales per category.
+Line graphs for order trends over time.
+Heatmaps for geographical distribution of orders.
+Advanced Insights
+
+Identify customer purchasing behavior.
+Predict best-selling categories using machine learning.
+Customer segmentation for marketing strategies.
+
 1. List all unique cities where customers are located.
 2. Count the number of orders placed in 2017.
 3. Find the total sales per category.
